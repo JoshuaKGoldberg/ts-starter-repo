@@ -19,8 +19,4 @@ export default tseslint.config(
       '@typescript-eslint/restrict-template-expressions': 'off',
     },
   },
-  {
-    files: ['eslint.config.mjs'],
-    extends: [tseslint.configs.disableTypeChecked],
-  },
 );
